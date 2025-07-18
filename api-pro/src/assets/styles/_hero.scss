@@ -1,0 +1,223 @@
+.hero-section {
+  background-size: cover;
+  background-color: rgba(30, 30, 30, 0.95);
+  background-blend-mode: hard-light;
+
+  .hero-content {
+    color: $text_primary_color;
+    padding-top: 180px;
+
+    .hello {
+      width: 140px;
+    }
+
+    @media (max-width: 1400px) {
+      padding-top: 150px;
+
+      .hello {
+        width: 115px;
+      }
+    }
+
+    @media (max-width: 991px) {
+      padding-top: 120px;
+
+      .hello {
+        width: 80px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      padding-top: 100px;
+
+      .hello {
+        width: 70px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .hello {
+        width: 65px;
+      }
+    }
+
+    @media (max-width: 389px) {
+      padding-top: 90px;
+
+      .hello {
+        width: 60px;
+      }
+    }
+
+    @media (min-width: 1700px) {
+      .hello {
+        width: 150px;
+      }
+    }
+
+    @media (min-width: 2500px) {
+      .hello {
+        width: 200px;
+      }
+    }
+
+    .hero-content-title {
+      font-size: 100px;
+      font-weight: 600;
+      line-height: 100%;
+      display: flex;
+      justify-content: center;
+
+      @media (max-width: 1400px) {
+        font-size: 80px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 65px;
+      }
+
+      @media (max-width: 991px) {
+        font-size: 50px;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 40px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 32px;
+      }
+
+      @media (max-width: 389px) {
+        font-size: 29px;
+      }
+
+      @media (max-width: 342px) {
+        font-size: 25px;
+      }
+
+      @media (min-width: 1700px) {
+        font-size: 100px;
+      }
+
+      @media (min-width: 2500px) {
+        font-size: 100px;
+      }
+
+      body {
+        margin: 0;
+        font: 100% / 1.5 Raleway, sans-serif;
+        color: hsl(230, 100%, 95%);
+        background: linear-gradient(
+          135deg,
+          hsl(230, 40%, 12%),
+          hsl(230, 20%, 7%)
+        );
+        height: 100vh;
+        display: flex;
+      }
+
+      .hero-content-name {
+        margin: 0;
+        font-size: 3.5rem;
+        font-weight: 300;
+        animation: lights 5s 750ms linear infinite;
+      }
+    }
+
+    .hero-content-description {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 120%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+      @media (max-width: 1400px) {
+        font-size: 28px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 24px;
+      }
+
+      @media (max-width: 991px) {
+        font-size: 19px;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 427px) {
+        font-size: 15px;
+      }
+
+      @media (max-width: 389px) {
+        font-size: 13px;
+      }
+
+      @media (max-width: 342px) {
+        font-size: 11px;
+      }
+
+      @media (min-width: 1700px) {
+        font-size: 32px;
+      }
+
+      @media (min-width: 2500px) {
+        font-size: 32px;
+      }
+    }
+
+    .glow-on-hover:hover {
+      border-radius: 50px;
+      box-shadow: 0 0 10px rgba(239, 147, 53, 0.8),
+        0 0 20px rgba(239, 147, 53, 0.6), 0 0 30px rgba(239, 147, 53, 0.4);
+    }
+
+    .hero-content-button {
+      display: flex;
+      gap: 18px;
+      justify-content: center;
+      padding-bottom: 188px;
+
+      .her-btn {
+        margin-right: 18px;
+      }
+
+      @media (max-width: 1200px) {
+        padding-bottom: 90px;
+      }
+
+      @media (max-width: 576px) {
+        padding: 5px 0;
+        font-size: 12px;
+        padding-bottom: 60px;
+
+        .her-btn {
+          margin-right: 10px;
+        }
+      }
+
+      @media (max-width: 389px) {
+        padding-bottom: 40px;
+      }
+
+      @media (min-width: 1700px) {
+        padding-bottom: 200px;
+      }
+
+      @media (min-width: 2500px) {
+        padding-bottom: 250px;
+      }
+    }
+
+   
+  }
+
+}
