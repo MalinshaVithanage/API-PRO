@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Row, Container, Col} from "react-bootstrap";
+import { Button, Row, Container} from "react-bootstrap";
 
 export default function HeroSection() {
   return (
