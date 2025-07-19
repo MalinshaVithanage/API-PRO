@@ -2,12 +2,6 @@
 
 Welcome to the promotional website for **API PRO**, a powerful and intuitive platform designed to help developers **build, manage, and scale APIs effortlessly**.
 
----
-
-## 🌐 Live Site
-
-🔗 [View the Live Website](https://your-username.github.io/api-pro-website)
-
 
 ---
 
