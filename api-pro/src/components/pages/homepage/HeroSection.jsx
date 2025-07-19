@@ -21,12 +21,12 @@ export default function HeroSection() {
             </Row>
 
 
-            <Row className="hero-content-button pt-xl-5 pt-4  ">
-              <div className="d-flex justify-content-center">
+            <Row className="hero-content-button pt-xl-5 pt-4 pb-lg-5   ">
+              <div className="d-flex justify-content-center pb--lg-5">
                 <Button
                   variant="outline-success"
                   href="mailto:malinshkv@gmail.com?subject=Hire%20Me&body=Hi%20Malinsha,%0D%0A%0D%0AI%20am%20interested%20in%20hiring%20you%20for%20a%20project.%0D%0A%0D%0AThanks,%0D%0AYour%20Name"
-                  className="button-hc her-btn "
+                  className="button-hc her-btn mb-lg-5 "
                 >
                   Get Started for Free
                 </Button>{" "}

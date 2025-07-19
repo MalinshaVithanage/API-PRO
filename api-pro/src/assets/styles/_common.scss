@@ -58,7 +58,13 @@ body {
     justify-content: center;
     justify-items: center;
     padding-top: 74px;
-
+    
+    @media (max-width:1200px) {
+      padding-top: 50px;
+    }
+       @media (max-width:991px) {
+      padding-top: 40px;
+    }
     @media (max-width:576px) {
       padding-top: 30px;
     }
@@ -66,21 +72,22 @@ body {
       padding-top: 24px;
     }
     .section-title {
-      font-size: 48px;
+      font-size: 40px;
       line-height: auto;
       font-weight: bold;
       letter-spacing: 3%;
       color: #ffffff;
       display: flex;
+      text-align: center;
 
       .section-title-left {
         color: $primary_color;
       }
       @media (max-width: 576px) {
-        font-size: 40px;
+        font-size: 30px;
       }
       @media (max-width: 389px) {
-        font-size: 34px;
+        font-size: 20px;
       }
 
     }
