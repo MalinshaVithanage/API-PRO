@@ -13,11 +13,9 @@ function SocialProofSection() {
       <section className="features-section">
         <Container>
           <div className="section-heading">
-            <Row>
-              <div className="section-title">
+              <div className="section-title ">
                 Trusted by the World's Most Innovative Companies
               </div>
-            </Row>
             <Row>
               <div className="pt-sm-2 pt-1">
                 <Image src={Rectangle} className="rectangle"></Image>
@@ -26,13 +24,13 @@ function SocialProofSection() {
           </div>
           <Container className="mt-5 ">
             <Row className="mt-5 justify-content-center">
-              <Col xs={4}><Image src={CompanyLogo1} ></Image></Col>
-              <Col xs={4}><Image src={CompanyLogo2} ></Image></Col>
-              <Col xs={4}><Image src={CompanyLogo3} ></Image></Col>
+              <Col xs={4}><Image src={CompanyLogo1} style={{ width: '85%' }}></Image></Col>
+              <Col xs={4}><Image src={CompanyLogo2} style={{ width: '85%' }}></Image></Col>
+              <Col xs={4}><Image src={CompanyLogo3} style={{ width: '85%' }}></Image></Col>
             </Row>
-            <Row className="mt-4 justify-content-center">
-               <Col xs={4}><Image src={CompanyLogo4} ></Image></Col>
-              <Col xs={4}><Image src={CompanyLogo5} ></Image></Col>
+            <Row className="mt-4 mb-5 justify-content-center">
+               <Col xs={4}><Image src={CompanyLogo4} style={{ width: '85%' }}></Image></Col>
+              <Col xs={4}><Image src={CompanyLogo5} style={{ width: '85%' }}></Image></Col>
             </Row>
           </Container>
         </Container>

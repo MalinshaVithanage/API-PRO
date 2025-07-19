@@ -40,7 +40,7 @@ function NavBar() {
                 Home
               </CustomNavLink>
               <CustomNavLink href="/about-us" className="nav-item">
-                About Us
+                About 
               </CustomNavLink>
               <CustomNavLink href="/pricing" className="nav-item">
                 Pricing
@@ -49,7 +49,7 @@ function NavBar() {
                 Documentation
               </CustomNavLink>
               <CustomNavLink href="/contact" className="nav-item">
-                Contact Us
+                Contact 
               </CustomNavLink>
             </Nav>
           </Navbar.Collapse>
