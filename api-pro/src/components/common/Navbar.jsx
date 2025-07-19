@@ -49,7 +49,7 @@ function NavBar() {
                 Documentation
               </CustomNavLink>
               <CustomNavLink href="/contact" className="nav-item">
-                Contact Me
+                Contact Us
               </CustomNavLink>
             </Nav>
           </Navbar.Collapse>
