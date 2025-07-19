@@ -1,0 +1,153 @@
+.documentation-page {
+   
+  .api-pro-doc-page4 {
+    display: flex;
+    min-height: 100vh;
+ 
+
+    .sidebar {
+      width: 260px;
+      background: #232f3e;
+      color: #fff;
+      padding: 2rem 1.5rem 2rem 2rem;
+      box-shadow: 2px 0 12px rgba(0, 0, 0, 0.02);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+
+      .sidebar-title {
+        font-size: 1.35rem;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+        letter-spacing: 0.02em;
+        color: #ff9900;
+      }
+
+      .sidebar-section:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+
+      .sidebar-category {
+        font-size: 0.95rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #b3b9c2;
+        letter-spacing: 0.03em;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          margin-bottom: 0.7rem;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.05rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 5px;
+            display: block;
+            transition: background 0.15s;
+
+            &:hover {
+              background: #37475a;
+            }
+
+            &.active-link {
+              background: #ff9900;
+              color: #232f3e;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+
+    .content {
+      flex: 1;
+      padding: 3rem 2.8rem 2rem 2.8rem;
+      background: #f9fbfc;
+
+      .endpoint-title {
+        font-size: 2.1rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: #232f3e;
+
+        .endpoint-url {
+          font-family: "Fira Mono", "Consolas", "Menlo", monospace;
+          background: #eaf4fd;
+          color: #1a73e8;
+          padding: 0.2em 0.6em;
+          border-radius: 4px;
+          font-size: 1.18rem;
+          margin-left: 0.3em;
+        }
+      }
+
+      .endpoint-description {
+        font-size: 1.18rem;
+        color: #3d5165;
+        margin-bottom: 2.1rem;
+      }
+
+      .sub-heading {
+        font-size: 1.15rem;
+        margin-top: 1.7rem;
+        margin-bottom: 0.7rem;
+        color: #232f3e;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+
+      .code-block {
+        background: #1e293b;
+        color: #cbd5e1;
+        border-radius: 8px;
+        padding: 1.3rem 1.1rem;
+        font-size: 1rem;
+        margin-bottom: 1.7rem;
+        box-shadow: 0 2px 14px rgba(30, 41, 59, 0.05);
+
+        pre {
+          margin: 0;
+          overflow-x: auto;
+
+          code {
+            font-family: "Fira Mono", "Consolas", monospace;
+            font-size: 1rem;
+            background: none;
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  // Responsive for mobile/tablet
+  @media (max-width: 900px) {
+    .api-pro-doc-page4 {
+      flex-direction: column;
+
+      .sidebar {
+        width: 100%;
+        padding: 1rem;
+        min-height: unset;
+        box-shadow: none;
+        .sidebar-title {
+          margin-bottom: 1.2rem;
+        }
+        .sidebar-category {
+          margin-bottom: 0.7rem;
+        }
+      }
+
+      .content {
+        padding: 1.2rem;
+      }
+    }
+  }
+}
