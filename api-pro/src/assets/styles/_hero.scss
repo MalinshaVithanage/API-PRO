@@ -1,0 +1,177 @@
+.hero-section {
+  background-size: cover;
+  background-color: rgba(30, 30, 30, 0.95);
+  background-blend-mode: hard-light;
+
+  .hero-content {
+    color: $text_primary_color;
+    padding-top: 180px;
+
+    @media (max-width: 1400px) {
+      padding-top: 150px;
+
+    }
+
+    @media (max-width: 991px) {
+      padding-top: 120px;
+
+    }
+
+    @media (max-width: 767px) {
+      padding-top: 100px;
+
+    }
+
+    @media (max-width: 576px) {
+
+    }
+
+    @media (max-width: 389px) {
+      padding-top: 90px;
+    }
+
+    @media (min-width: 1700px) {
+  
+    }
+
+    @media (min-width: 2500px) {
+     
+    }
+
+    .hero-content-title {
+      font-size: 100px;
+      font-weight: 600;
+      line-height: 100%;
+      display: flex;
+      justify-content: center;
+
+      @media (max-width: 1400px) {
+        font-size: 80px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 65px;
+      }
+
+      @media (max-width: 991px) {
+        font-size: 50px;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 40px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 34px;
+        text-align: center;
+        
+      }
+
+      @media (max-width: 389px) {
+        font-size: 29px;
+      }
+
+      @media (max-width: 342px) {
+        font-size: 25px;
+      }
+
+      @media (min-width: 1700px) {
+        font-size: 100px;
+      }
+
+      @media (min-width: 2500px) {
+        font-size: 100px;
+      }
+
+
+    }
+
+    .hero-content-description {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 120%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+      @media (max-width: 1400px) {
+        font-size: 28px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 24px;
+      }
+
+      @media (max-width: 991px) {
+        font-size: 19px;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 427px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 389px) {
+        font-size: 13px;
+      }
+
+      @media (max-width: 342px) {
+        font-size: 11px;
+      }
+
+      @media (min-width: 1700px) {
+        font-size: 32px;
+      }
+
+      @media (min-width: 2500px) {
+        font-size: 32px;
+      }
+    }
+
+    .hero-content-button {
+      display: flex;
+      gap: 18px;
+      justify-content: center;
+
+      .her-btn {
+        margin-right: 18px;
+      }
+
+      @media (max-width: 1200px) {
+        padding-bottom: 90px;
+      }
+
+      @media (max-width: 576px) {
+        padding: 5px 0;
+        font-size: 12px;
+        padding-bottom: 60px;
+
+        .her-btn {
+          margin-right: 10px;
+        }
+      }
+
+      @media (max-width: 389px) {
+        padding-bottom: 40px;
+      }
+
+      @media (min-width: 1700px) {
+        padding-bottom: 200px;
+      }
+
+      @media (min-width: 2500px) {
+        padding-bottom: 250px;
+      }
+    }
+
+   
+  }
+
+}
