@@ -42,8 +42,8 @@ function NavBar() {
               <CustomNavLink href="/about-us" className="nav-item">
                 About Us
               </CustomNavLink>
-              <CustomNavLink href="/projects" className="nav-item">
-                My Works
+              <CustomNavLink href="/pricing" className="nav-item">
+                Pricing
               </CustomNavLink>
               <CustomNavLink href="/contact" className="nav-item">
                 Contact Me
